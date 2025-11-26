@@ -2,6 +2,14 @@ import React from "react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
+import estatein from "../assets/projectsData/Estatein/estatein-real-state.png";
+import modernWebsite from "../assets/projectsData/Moder-website/modern-website-reacttailwind.png";
+import finexo from "../assets/projectsData/Finexo/finexo-img.png";
+import cyborg from "../assets/projectsData/Cyborg/cyborg-img.png";
+import multiStepForm from "../assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
+import productListWithCart from "../assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
+
+
 export const NAV_ITEMS = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
@@ -16,7 +24,7 @@ export const PROJECTS = [
     description:
       "A modern real estate web application that allows users to browse property listings, view detailed information, and explore available units through a clean and responsive UI.",
     tags: ["React", "React Router", "Tailwind", "Swiper.js"],
-    imageUrl: "/src/assets/projectsData/Estatein/estatein-real-state.png",
+    imageUrl: estatein,
     githubUrl: "https://github.com/AbdallahKhattab11/EStatein-project",
     liveUrl: "https://estatein-real-state.netlify.app/",
     featured: true,
@@ -27,7 +35,7 @@ export const PROJECTS = [
     description:
       "A modern website template built with React and Tailwind CSS, showcasing a clean and responsive design.",
     tags: ["React", "Tailwind", "Framer Motion", "Swiper.js"],
-    imageUrl: "/src/assets/projectsData/Moder-website/modern-website-reacttailwind.png",
+    imageUrl: modernWebsite,
     githubUrl: "https://github.com/AbdallahKhattab11/Modern-website",
     liveUrl: "https://modern-website-reacttailwind.netlify.app/",
     featured: true,
@@ -38,7 +46,7 @@ export const PROJECTS = [
     description:
       "Finexo - Crypto Trading Platform With React And Modern Technologies.",
     tags: ["React", "Redux Toolkit", "Stripe", "Node.js"],
-    imageUrl: "/src/assets/projectsData/Finexo/finexo-img.png",
+    imageUrl: finexo,
     githubUrl: "https://github.com/AbdallahKhattab11/Finexo_template",
     liveUrl: "https://finexo-react-tailwind.netlify.app/",
     featured: true,
@@ -49,7 +57,7 @@ export const PROJECTS = [
     description:
       "Cyborg - Your destination for popular games, Browse our gaming library.",
     tags: ["HTML", "CSS", "JavaScript", "Swiper.js"],
-    imageUrl: "/src/assets/projectsData/Cyborg/cyborg-img.png",
+    imageUrl: cyborg,
     githubUrl: "https://github.com/AbdallahKhattab11/Cyborg-Project",
     liveUrl: "https://cyporg-project.netlify.app/",
     featured: true,
@@ -60,7 +68,7 @@ export const PROJECTS = [
     description:
       "A clean and responsive multi-step form with field validation, ideal for guiding users through complex inputs.",
     tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: "/src/assets/projectsData/Multi-Step-Form/Multi-step-form-img.png",
+    imageUrl: multiStepForm,
     githubUrl: "https://github.com/AbdallahKhattab11/Multi-step-form",
     liveUrl: "https://abdallahkhattab11.github.io/Multi-step-form/",
     featured: true,
@@ -71,7 +79,7 @@ export const PROJECTS = [
     description:
       "A dynamic product list with an interactive cart system that updates quantities and totals in real-time.",
     tags: ["HTML", "CSS", "JavaScript", "JSON"],
-    imageUrl: "/src/assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png",
+    imageUrl: productListWithCart,
     githubUrl: "https://github.com/AbdallahKhattab11/Product-list-with-cart",
     liveUrl: "https://abdallahkhattab11.github.io/Product-list-with-cart/",
     featured: true,
