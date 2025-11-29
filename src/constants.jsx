@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import estatein from "./assets/projectsData/Estatein/estatein-real-state.png";
 import modernWebsite from "./assets/projectsData/Moder-website/modern-website-reacttailwind.png";
 import finexo from "./assets/projectsData/Finexo/finexo-img.png";
-import cyborg from "./assets/projectsData/Cyborg/cyborg-img.png";
+import cyborg from "/src/assets/projectsData/cyborg/cyborg-img.png";
 import multiStepForm from "./assets/projectsData/Multi-Step-Form/Multi-step-form-img.png";
 import productListWithCart from "./assets/projectsData/Product-list-with-cart/Product-list-with-cart-img.png";
 
